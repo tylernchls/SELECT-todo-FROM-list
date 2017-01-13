@@ -28,6 +28,9 @@ ALTER TABLE tasks ALTER COLUMN updated_at NOT NULL SET DEFAULT now();
 
 INSERT INTO tasks VALUES(DEFAULT, 'Study SQL', 'Complete this exercise', now(), now(), NULL);
 
+INSERT INTO tasks VALUES(DEFAULT, 'Study PostgreSQL', 'Read all the documentation', now(), now(), NULL);
+
+
 
 
 
